@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -28,7 +28,7 @@
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="s7B-Fk-C07"/>
                                     <barButtonItem title="Next" id="ggk-vu-8B1">
                                         <connections>
-                                            <action selector="nextBarButtonItemPressed:" destination="BYZ-38-t0r" id="EVk-jR-5yI"/>
+                                            <action selector="nextBarPressed:" destination="BYZ-38-t0r" id="lX4-LK-ZwR"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
@@ -85,10 +85,10 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="ageLabel" destination="ZKp-OQ-dDj" id="5Rw-PV-dbt"/>
-                        <outlet property="breedLabel" destination="Vkh-WE-Zqh" id="MC9-fZ-cX5"/>
-                        <outlet property="myImageView" destination="iEG-IZ-M8f" id="jpc-s7-2yw"/>
-                        <outlet property="nameLabel" destination="QWV-9N-yUD" id="kcK-yb-Uze"/>
+                        <outlet property="ageLabel" destination="ZKp-OQ-dDj" id="FEX-Ej-m3s"/>
+                        <outlet property="breedLabel" destination="Vkh-WE-Zqh" id="Umn-CY-sqi"/>
+                        <outlet property="myImageView" destination="iEG-IZ-M8f" id="pci-r6-8xS"/>
+                        <outlet property="nameLabel" destination="QWV-9N-yUD" id="Xyw-0B-WF0"/>
                         <outlet property="nextBarButtonItemPressed" destination="ggk-vu-8B1" id="C6e-Uf-EeX"/>
                     </connections>
                 </viewController>
